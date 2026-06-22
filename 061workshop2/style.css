@@ -1,0 +1,113 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#home {
+    background-color: #7600bc;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 100px;
+}
+
+.profile_name {
+    background-color: #deb6f5;
+    width: 300px;
+    margin-left: 20px;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-left: 20px;
+    color: #7600bc; 
+}
+
+.contact_info {
+    font-size: 15px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contact_info img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.topdiv {
+    float: right;
+    padding-right: 20px;
+}
+
+.topmenu{
+    color: lightgrey;
+    font-size: 20px;
+    margin: 5px;
+}
+.profile_image {
+    width: 500px;
+}
+#about-me {
+    display: flex;
+}
+#about-me h1{
+    font-size: 65px;
+    color: #7600bc;
+}
+#about-me p{
+    color: gray;
+    font-size: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+h2{
+    font-size: 40px;
+    color: #7600bc;
+    margin-left: 20px;
+}
+.allskills{
+    display: flex;
+}
+
+.skills{
+    border: 1px solid grey;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0.2px 5px black;
+}
+.skills img{
+    height: 200px;
+}
+
+#projects-container{
+    margin-left: 50px;
+
+}
+#projects-container hr {
+    width: 75%;
+    border: 1px solid lightblue;
+    
+}
+.project-card li{
+    color: grey;
+}
+
+#all_recommendations{
+    display: flex; 
+}
+
+.rec{
+     margin: 20px;
+     border: 1px solid gray;
+     padding: 10px;
+     border-radius: 8px;
+     font-style:  italic;
+     flex: 1;
+}
+
+.rec span{
+    color: #7600bc;
+    font-size: 30px;
+}
